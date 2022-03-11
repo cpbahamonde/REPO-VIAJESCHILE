@@ -1,0 +1,9 @@
+html { background-color: #fff; } 
+body * { margin: 0; border: 0; padding: 0;}
+
+body {
+    min-height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+   /* font-family: 'Open Sans', sans-serif;*/
+}
