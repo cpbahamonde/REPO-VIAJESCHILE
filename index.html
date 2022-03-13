@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&family=Roboto:wght@300;400;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
         rel="stylesheet">
 
     <!-- Carga [CDN] Google API jQuery 3.x snippet -->
@@ -34,23 +34,15 @@
 
 </head>
 
-
-
 <body>
 
-
-
-
-
-    <header id="Inicio" >
-
-        <!-- navbar start -->
-        <nav class="navbar navbar-expand-md fixed-top ">
+    <header id="Inicio" >   <!-- header start [navbar & carousel]-->
         
+        <nav class="navbar navbar-expand-md fixed-top ">    <!-- navbar start -->
             <div class="container ">
 
                 <a class="navbar-brand text-white" href="index.html">
-                    <img src="assets/img/viajes.svg" width="30" height="30" class="d-inline align-top " alt="" loading="lazy" />
+                    <img src="assets/img/viajes.svg" width="20" height="20" class="d-inline align-content-center align-middle " alt="" loading="lazy" />
                     Viajes Chile
                 </a>
 
@@ -60,9 +52,7 @@
                 </button>
        
                 <div class="navbar-menutxt collapse navbar-collapse " id="navbarSupportedContent">
-        
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-        
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">      
                         <li class="nav-item active  ">
                             <a class="nav-link  text-white " href="#Inicio">Inicio <span class="sr-only">(current)</span></a>
                         </li>
@@ -75,27 +65,24 @@
                         <li class="nav-item">
                             <a class="nav-link text-white " href="#Contacto">Contacto</a>
                         </li>
-
                     </ul>
                 </div>
         
             </div>
-        </nav> <!-- nav end -->
+        </nav>                                              <!-- nav end -->
 
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >  <!-- carousel start -->
+  
             <div class="carousel-inner" >
                 <div class="carousel-item active" >
                     <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Llamas"  />
                 </div>
-
                 <div class="carousel-item ">
                     <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="Moais" />
                 </div>
-
                 <div class="carousel-item ">
                     <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="Pinguinos" />
                 </div>
-
             </div>
 
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
@@ -108,210 +95,205 @@
                 <span class="sr-only">Next</span>
             </a>
 
+        </div>                                                                              <!-- carousel end -->
 
-        </div>
-
-    </header>
+    </header>               <!-- header end  -->
 
     <main class="bg-black" >
 
-            <!--Quienes Somos-->
-            <section id="QSomos" class="text-white d-none d-sm-none d-md-block bg-black pt-5 ">
-                <div clas="container d-md-block mb-4">
-                    <div class="mx-5">
-                        <h4 class="text-center text-uppercase mx-5 mb-4">¿Quiénes somos?</h4>
-                        <hr class="text-center bg-info mb-4" />
-                    </div>
-            
-                    <div class="row pt-3">
-
-                        <div class=" col-md-4 col-lg-4 col-xl-4">
-                            <div class="icon-title bg-info text-center">
-                                <h2>
-                                    <i class=" fas fa-plane"> </i>
-                                </h2>
-                            </div>
-                            <p class="qsomos-txt" >
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
-                                beatae, maxime ducimus rem tenetur deserunt, ex saepe molestiae ut
-                                perferendis quo libero id! Excepturi ratione architecto eveniet enim
-                                consequatur. 
-                                <br>
-                                <br>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
-                                beatae, maxime ducimus rem tenetur deserunt, ex saepe molestiae ut
-                                perferendis quo libero id! Excepturi ratione architecto eveniet enim
-                                consequatur.itaque quidem tenetur quod repellat quo temporibus eligendi
-                        </div>
-
-                        <div class=" col-md-4 col-lg-4 col-xl-4">
-                            <p class="qsomos-txt" >
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores 
-                                exercitationem modi in, dolor praesentium aliquid nulla. Hic natus 
-                                atque modi maxime eum accusamus illum earum magnam id. Praesentium, 
-                                quod rem Omnis sit laborum modi beatae, deserunt ea optio quis.
-                                <br>
-                                <br>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
-                                exercitationem modi in, dolor praesentium aliquid nulla. Hic natus
-                                atque modi maxime eum accusamus illum earum magnam id. Praesentium,
-                                quod rem Omnis sit laborum modi beatae, deserunt ea optio quis.
-                            </p>
-                            <div class="icon-title bg-info text-center">
-                                <h2>
-                                    <i class=" fas fa-mountain"> </i>
-                            </h2>
-                            </div>
-                        </div>
-
-                        <div class=" col-md-4 col-lg-4 col-xl-4">
-                            <div class="icon-title bg-info text-center">
-                                <h2>
-                                    <i class="fas fa-route"> </i>
-                                </h2>
-                            </div>
-                            <p class="qsomos-txt" >
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit eum 
-                                eligendi nemo? Dicta dolor mollitia, in magnam deleniti itaque quidem  
-                                tenetur quod repellat quo temporibus eligendi, sapiente blanditiis!
-                                aliquid nulla. Hic natus atque modi maxime eum accusamus illum earum 
-                                magnam id. Praesentium, quod rem Omnis sit modi beatae, deserunt ea.
-                                <br>
-                                <br>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit eum
-                                eligendi nemo? Dicta dolor mollitia, in magnam deleniti itaque quidem
-                                tenetur quod repellat quo temporibus eligendi, sapiente blanditiis!
-                                aliquid nulla. 
-                        </p>
-                        </div>
-
-
-                    </div>
- 
-                </div>
-
-
-            </section>
-
-            <!--Destacados-->
-            
-            <section id="Destacados" class="bg-black pt-5 text-white" >
-                <div class="mx-5" >
-                    <h4 class="text-center text-uppercase mx-5 mb-4"  >Destacados</h4>
-                    <hr class="text-center bg-info mb-4"  />
-                </div>
-
-                <div class="container" >
-                    <div class="row row-cols-1 row-cols-md-4"  >
-
-                        <div class="mb-4"  >
-                            <div class="card h-100"   >
-                                <img src="assets/img/card1.jpg" class="card-img card-img-top" alt="Torres del Paine" />
-                                <div class="card-body  bg-info"  >
-                                    <h5 class="text-center" >Torres del Paine</h5>
-                                    <hr>
-                                    <p class="card-text"  >
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                        Quas nisi laborum est sint eius dignissimos, dolorem laudantium
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mb-4">
-                            <div class="card h-100">
-                                <img src="assets/img/card2.jpg" class="card-img card-img-top" alt="Laguna Lejia" /> 
-                                <div class="card-body  bg-info">
-                                    <h5 class="text-center">Laguna Lejia</h5>
-                                    <hr>
-                                    <p class="card-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Quas nisi laborum est sint eius dignissimos, dolorem laudantium
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mb-4">
-                            <div class="card h-100">
-                                <img src="assets/img/card3.jpg" class="card-img card-img-top " alt="Salar Atacama" />
-                                <div class="card-body  bg-info">
-                                    <h5 class="text-center">Salar de Atacama </h5>
-                                    <hr>
-                                    <p class="card-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Quas nisi laborum est sint eius dignissimos, dolorem laudantium
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mb-4">
-                            <div class="card h-100">
-                                <img src="assets/img/card4.jpg" class="card-img card-img-top" alt="Selva Valdiviana" />
-                                <div class="card-body  bg-info">
-                                    <h5 class="text-center">Selva Valdiviana</h5>
-                                    <hr>
-                                    <p class="card-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Quas nisi laborum est sint eius dignissimos, dolorem laudantium
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </section>
-            
-
-
-            <!--Contacto-->
-            <section id="Contacto" class="bg-black pt-5 text-white">
+        <!--Quienes Somos-->
+        <section id="QSomos" class="text-white d-none d-sm-none d-md-block bg-black pt-5 ">
+            <div clas="container d-md-block mb-4">
                 <div class="mx-5">
-                    <h4 class="text-center text-uppercase mx-5 mb-4">Contacto</h4>
-                                </div>
+                    <h4 class="text-center text-uppercase mx-5 mb-4">¿Quiénes somos?</h4>
+                    <hr class="text-center bg-info mb-4" />
+                </div>
+        
+                <div class="row pt-3">
 
-
-            <div class="contact-clean">
-                <form onsubmit="return false;">
-                    <div>
-                        <p class="form-txt">Nombre </p>
+                    <div class=" col-md-4 col-lg-4 col-xl-4">
+                        <div class="icon-title bg-info text-center">
+                            <h2>
+                                <i class=" fas fa-plane"> </i>
+                            </h2>
+                        </div>
+                        <p class="qsomos-txt" >
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
+                            beatae, maxime ducimus rem tenetur deserunt, ex saepe molestiae ut
+                            perferendis quo libero id! Excepturi ratione architecto eveniet enim
+                            consequatur. 
+                            <br>
+                            <br>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
+                            beatae, maxime ducimus rem tenetur deserunt, ex saepe molestiae ut
+                            perferendis quo libero id! Excepturi ratione architecto eveniet enim
+                            consequatur.itaque quidem tenetur quod repellat quo temporibus eligendi
                     </div>
-                    <div class="form-group"><input class="form-control" type="text" name="name" ></div>
-                    <div>
-                        <p class="form-txt">Asunto </p>
+
+                    <div class=" col-md-4 col-lg-4 col-xl-4">
+                        <p class="qsomos-txt" >
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores 
+                            exercitationem modi in, dolor praesentium aliquid nulla. Hic natus 
+                            atque modi maxime eum accusamus illum earum magnam id. Praesentium, 
+                            quod rem Omnis sit laborum modi beatae, deserunt ea optio quis.
+                            <br>
+                            <br>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+                            exercitationem modi in, dolor praesentium aliquid nulla. Hic natus
+                            atque modi maxime eum accusamus illum earum magnam id. Praesentium,
+                            quod rem Omnis sit laborum modi beatae, deserunt ea optio quis.
+                        </p>
+                        <div class="icon-title bg-info text-center">
+                            <h2>
+                                <i class=" fas fa-mountain"> </i>
+                        </h2>
+                        </div>
                     </div>
-                    <div class="form-group"><input class="form-control" type="text" name="subject"></div>
-                    <div>
-                        <p class="form-txt">Mensaje </p>
+
+                    <div class=" col-md-4 col-lg-4 col-xl-4">
+                        <div class="icon-title bg-info text-center">
+                            <h2>
+                                <i class="fas fa-route"> </i>
+                            </h2>
+                        </div>
+                        <p class="qsomos-txt" >
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit eum 
+                            eligendi nemo? Dicta dolor mollitia, in magnam deleniti itaque quidem  
+                            tenetur quod repellat quo temporibus eligendi, sapiente blanditiis!
+                            aliquid nulla. Hic natus atque modi maxime eum accusamus illum earum 
+                            magnam id. Praesentium, quod rem Omnis sit modi beatae, deserunt ea.
+                            <br>
+                            <br>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit eum
+                            eligendi nemo? Dicta dolor mollitia, in magnam deleniti itaque quidem
+                            tenetur quod repellat quo temporibus eligendi, sapiente blanditiis!
+                            aliquid nulla. 
+                    </p>
                     </div>
 
-                    <div class="form-group"><textarea class="form-control area-msj" name="message" "
-                            rows="14"></textarea></div>
 
+                </div>
 
-                    <input id="enviarMsj"  class="btn btn-primary" type="button submit" value="Enviar" onclick="MsjEnv()"
-                        data-mdb-toggle="tooltip" data-mdb-placement="bottom" title="Presiona para enviar mensaje" />
-                        <!-- <div class="form-group "><button class="btn btn-primary" type="submit">Enviar </button></div> -->
-                </form>
             </div>
-                            
+
+
+        </section>
+
+        <!--Destacados-->
+        <section id="Destacados" class="bg-black pt-5 text-white" >
+            <div class="mx-5" >
+                <h4 class="text-center text-uppercase mx-5 mb-4"  >Destacados</h4>
+                <hr class="text-center bg-info mb-4"  />
+            </div>
+
+            <div class="container" >
+                <div class="row row-cols-1 row-cols-md-4"  >
+
+                    <div class="mb-4"  >
+                        <div class="card h-100"   >
+                            <img src="assets/img/card1.jpg" class="card-img card-img-top" alt="Torres del Paine" />
+                            <div class="card-body  bg-info"  >
+                                <h5 class="text-center" >Torres del Paine</h5>
+                                <hr>
+                                <p class="card-text"  >
+                                    <br>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Quas nisi laborum est sint eius dignissimos, dolorem laudantium
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="card h-100">
+                            <img src="assets/img/card2.jpg" class="card-img card-img-top" alt="Laguna Lejia" /> 
+                            <div class="card-body  bg-info">
+                                <h5 class="text-center">Laguna Lejia</h5>
+                                <hr>
+                                <p class="card-text">
+                                    <br>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Quas nisi laborum est sint eius dignissimos, dolorem laudantium
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="card h-100">
+                            <img src="assets/img/card3.jpg" class="card-img card-img-top " alt="Salar Atacama" />
+                            <div class="card-body  bg-info">
+                                <h5 class="text-center">Salar de Atacama </h5>
+                                <hr>
+                                <p class="card-text">
+                                    <br>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Quas nisi laborum est sint eius dignissimos, dolorem laudantium
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="card h-100">
+                            <img src="assets/img/card4.jpg" class="card-img card-img-top" alt="Selva Valdiviana" />
+                            <div class="card-body  bg-info">
+                                <h5 class="text-center">Selva Valdiviana</h5>
+                                <hr>
+                                <p class="card-text">
+                                    <br>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Quas nisi laborum est sint eius dignissimos, dolorem laudantium
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        
+        <!--Contacto-->
+        <section id="Contacto" class="bg-black pt-5 text-white">
+            <div class="mx-5">
+                <h4 class="text-center text-uppercase mx-5 mb-4">Contacto</h4>
+                            </div>
+
+
+        <div class="contact-clean">
+            <form onsubmit="return false;">
+                <div>
+                    <p class="form-txt">Nombre </p>
+                </div>
+                <div class="form-group"><input class="form-control" type="text" name="name" ></div>
+                <div>
+                    <p class="form-txt">Asunto </p>
+                </div>
+                <div class="form-group"><input class="form-control" type="text" name="subject"></div>
+                <div>
+                    <p class="form-txt">Mensaje </p>
+                </div>
+
+                <div class="form-group"><textarea class="form-control area-msj" name="message" "
+                        rows="14"></textarea></div>
+
+
+                <input id="enviarMsj"  class="btn btn-primary" type="button submit" value="Enviar" onclick="MsjEnv()"
+                    data-mdb-toggle="tooltip" data-mdb-placement="bottom" title="Presiona para enviar mensaje" />
+                    <!-- <div class="form-group "><button class="btn btn-primary" type="submit">Enviar </button></div> -->
+            </form>
+        </div>
+                        
 
 
 
 
 
-            </section>
+        </section>
 
     </main>
-
- 
-
-
-
 
     <footer class="container-fluid text-center text-white bg-info py-4" >       <!-- footer start -->
         
@@ -338,21 +320,15 @@
     <section>       <!-- info/cargas finales start -->
     
     
-        <!-- Carga [CDN]Bootstrap JS plugins & Popper(tooltips, popovers) (va al final de <Body>)-->
+        <!-- Carga [CDN]Bootstrap JS plugins & Popper (tooltips, popovers) (va al final de <Body>)-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"></script>
         
-
         <!-- Carga propio JS (va al final de <Body>)-->
         <script src="./assets/js/app.js"></script>
     
-        <script>
-            $(function () {
-                $("[data-toggle='tooltip']").tooltip();
-            });
-        </script>
-    
+
     </section>      <!-- info/cargas finales end -->
 
 
