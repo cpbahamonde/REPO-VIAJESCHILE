@@ -7,3 +7,29 @@ body {
     margin: 0 auto;
    /* font-family: 'Open Sans', sans-serif;*/
 }
+
+
+.header .navbar {
+  background-color: transparent !important;
+}
+
+.navbar{
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+.navbar-brand{
+	font-size: 20pt;
+	font-weight: ;
+    color: #000;
+}
+
+.navbar-menutxt{
+    color:#000
+    /*
+	font-size: 20pt !important ;
+	font-weight: ;
+    */
+}
+
