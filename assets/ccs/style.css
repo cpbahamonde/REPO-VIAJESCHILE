@@ -11,23 +11,47 @@ body {
 
 .header .navbar {
   background-color: transparent !important;
-}
 
+ }
+ 
 .navbar{
-    position: fixed;
+
     width: 100vw;
     z-index: 1;
+/*
+    position: fixed;
+*/
+}
+
+
+.btn-primario:hover {
+  
+    background-color: transparent !important;
+  color: white;
+
+  border: 5px solid blue;
+  border-radius: 5px;
+  cursor: pointer;
+
 }
 
 .navbar-brand{
+
+  
+   /*
+      color: #fff;
+ 
 	font-size: 20pt;
 	font-weight: ;
-    color: #000;
+  
+*/
 }
-
+ 
 .navbar-menutxt{
-    color:#000
-    /*
+
+        /*
+    color:#fff  !important;
+
 	font-size: 20pt !important ;
 	font-weight: ;
     */
